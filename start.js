@@ -1,5 +1,4 @@
 require('dotenv').config();
-
 async function startApp(dbConnection, expressApp) {
     const port = process.env.port || 8521;
     try {
@@ -9,6 +8,4 @@ async function startApp(dbConnection, expressApp) {
         console.log(error);
     }
 }
-
-
 module.exports = startApp;
