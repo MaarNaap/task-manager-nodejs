@@ -8,4 +8,5 @@ async function startApp(dbConnection, expressApp) {
         console.log(error);
     }
 }
+
 module.exports = startApp;
